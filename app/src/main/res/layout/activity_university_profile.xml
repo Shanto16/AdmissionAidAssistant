@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#eaeaea"
+        tools:context=".UniversityProfile">
+
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/ic_vrsty_logo"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_marginTop="20dp"
+            android:src="@drawable/nsu"
+            android:layout_marginEnd="16dp"
+            android:layout_marginStart="16dp"
+            />
+
+        <TextView
+            android:id="@+id/tv_vrsty_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="North South University"
+            android:textSize="22sp"
+            android:layout_marginTop="-16dp"
+            android:textColor="#000000"
+            android:textStyle="bold"
+            android:layout_toEndOf="@+id/ic_vrsty_logo"
+            android:layout_alignTop="@+id/ic_vrsty_logo"
+            />
+
+        <TextView
+            android:id="@+id/tv_vrsty_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Varsity Type: Private"
+            android:textColor="#b0303030"
+            android:textStyle="italic"
+            android:layout_below="@+id/tv_vrsty_name"
+            android:layout_alignStart="@+id/tv_vrsty_name"
+            />
+
+        <TextView
+            android:id="@+id/tv_vrsty_address"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Address: Plot, 15, Block B Kuril - NSU Rd, Dhaka 1229"
+            android:layout_marginEnd="32dp"
+            android:textColor="#b0303030"
+            android:textStyle="italic"
+            android:layout_below="@+id/tv_vrsty_type"
+            android:layout_alignStart="@+id/tv_vrsty_name"
+            />
+
+        <Button
+            android:id="@+id/btn_map"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_below="@+id/tv_vrsty_address"
+            android:layout_marginTop="16dp"
+            android:layout_marginStart="4dp"
+            android:layout_marginEnd="4dp"
+            android:textStyle="bold"
+            android:text="See on map"
+            android:textAllCaps="true"
+            android:textColor="#bf202020"
+            />
+
+        <android.support.v7.widget.CardView
+            android:id="@+id/notice_card"
+            android:layout_width="match_parent"
+            android:layout_height="220dp"
+            android:layout_below="@+id/btn_map"
+            android:background="#b0303030"
+            android:layout_margin="8dp"
+            app:cardCornerRadius="4dp"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Notics Board"
+                android:textStyle="bold"
+                android:layout_margin="8dp"/>
+
+        </android.support.v7.widget.CardView>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/nsu_about"
+            android:layout_below="@+id/notice_card"
+            android:layout_margin="8dp"
+            android:textColor="#b0303030"
+            />
+
+    </RelativeLayout>
+
+</ScrollView>
+
