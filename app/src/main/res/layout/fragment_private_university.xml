@@ -42,6 +42,7 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_brac"
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -73,6 +74,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_iub"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -104,6 +107,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_ewu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -135,6 +140,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_aiub"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -166,6 +173,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_uap"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -197,6 +206,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_uiu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -228,6 +239,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_nu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -259,6 +272,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_seu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"

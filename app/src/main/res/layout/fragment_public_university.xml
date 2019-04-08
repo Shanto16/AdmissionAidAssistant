@@ -10,6 +10,8 @@
         android:orientation="vertical">
 
         <LinearLayout
+            android:id="@+id/ll_du"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -41,6 +43,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_jhu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -72,6 +76,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_ju"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -103,6 +109,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_buet"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -135,6 +143,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_ru"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -166,6 +176,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_ku"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -197,6 +209,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_cu"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -228,6 +242,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_ruet"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
@@ -259,6 +275,8 @@
             android:layout_marginRight="6dp"/>
 
         <LinearLayout
+            android:id="@+id/ll_kuet"
+
             android:layout_width="match_parent"
             android:layout_height="70dp"
             android:orientation="horizontal"
