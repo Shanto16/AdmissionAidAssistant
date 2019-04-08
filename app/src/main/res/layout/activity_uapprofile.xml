@@ -96,7 +96,7 @@
             android:id="@+id/vrsty_details"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="@string/brac_about"
+            android:text="@string/uap_about"
             android:layout_below="@+id/notice_card"
             android:layout_margin="8dp"
             android:textColor="#b0303030"
