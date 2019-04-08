@@ -9,6 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+        <activity android:name=".JUProfile"></activity>
+        <activity android:name=".JHUProfile" />
+        <activity android:name=".DUProfile" />
+        <activity android:name=".SEUProfile" />
+        <activity android:name=".NUProfile" />
+        <activity android:name=".UIUProfile" />
+        <activity android:name=".UAPProfile" />
+        <activity android:name=".AIUBProfile" />
+        <activity android:name=".EWUProfile" />
+        <activity android:name=".IUBProfile" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -16,7 +26,7 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".UniversityProfile"></activity>
+        <activity android:name=".UniversityProfile" />
     </application>
 
 </manifest>

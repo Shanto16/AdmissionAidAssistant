@@ -247,7 +247,7 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textSize="18sp"
-                android:text="Northen University Bangladesh"/>
+                android:text="Northern University Bangladesh"/>
 
         </LinearLayout>
 
