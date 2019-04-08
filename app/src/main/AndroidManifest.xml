@@ -9,7 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".JUProfile"></activity>
+        <activity android:name=".CUETProfile"></activity>
+        <activity android:name=".KUETProfile" />
+        <activity android:name=".BUETProfile" />
+        <activity android:name=".CUProfile" />
+        <activity android:name=".KUProfile" />
+        <activity android:name=".RUProfile" />
+        <activity android:name=".JUProfile" />
         <activity android:name=".JHUProfile" />
         <activity android:name=".DUProfile" />
         <activity android:name=".SEUProfile" />
