@@ -2,7 +2,7 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="tanvi.admissionpro">
 
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
         android:allowBackup="true"
@@ -36,7 +36,25 @@
             </intent-filter>
         </activity>
         <activity android:name=".UniversityProfile" />
-        <activity android:name=".NSUCourses"></activity>
+        <activity android:name=".NSUCourses" />
+        <activity android:name=".BracCourses" />
+        <activity android:name=".IubCourses" />
+        <activity android:name=".EwuCourses" />
+        <activity android:name=".AiubCourses" />
+        <activity android:name=".AsiaPacificCourses" />
+        <activity android:name=".UiuCourses" />
+        <activity android:name=".NuCourses" />
+        <activity android:name=".SeuCourses" />
+        <activity android:name=".DuCourses" />
+        <activity android:name=".JuCourses" />
+        <activity android:name=".JnuCourses" />
+        <activity android:name=".KuCourses" />
+        <activity android:name=".BuetCourses" />
+        <activity android:name=".KuetCourses" />
+        <activity android:name=".RuCourses" />
+        <activity android:name=".CuCourses" />
+        <activity android:name=".RuetCourses" />
+        <activity android:name=".NsuMap"></activity>
     </application>
 
 </manifest>
