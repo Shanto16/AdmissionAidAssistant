@@ -4,16 +4,16 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.webkit.WebView;
 
-public class NsuMap extends AppCompatActivity {
+public class IubMap extends AppCompatActivity {
 
     private WebView webView;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_nsu_map);
+        setContentView(R.layout.activity_iub_map);
 
-        webView = findViewById(R.id.nsu_map);
-        webView.loadUrl("https://goo.gl/maps/N1vvZbJiUizYaEvQ7");
+        webView = findViewById(R.id.iub_map);
+        webView.loadUrl("https://goo.gl/maps/4Je1D4XgQcj94pFR8");
     }
 }

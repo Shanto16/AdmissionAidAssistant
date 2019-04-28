@@ -54,7 +54,9 @@
         <activity android:name=".RuCourses" />
         <activity android:name=".CuCourses" />
         <activity android:name=".RuetCourses" />
-        <activity android:name=".NsuMap"></activity>
+        <activity android:name=".NsuMap" />
+        <activity android:name=".BracMap" />
+        <activity android:name=".IubMap"></activity>
     </application>
 
 </manifest>
