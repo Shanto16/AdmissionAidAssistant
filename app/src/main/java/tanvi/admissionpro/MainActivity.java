@@ -24,12 +24,12 @@ public class MainActivity extends AppCompatActivity {
         uniType = findViewById(R.id.tl_varsityType);
         container = findViewById(R.id.container_university);
 
-        uniType.addTab(uniType.newTab().setText("Private "));
-        uniType.addTab(uniType.newTab().setText("Public "));
+        uniType.addTab(uniType.newTab().setText("Private"));
+        uniType.addTab(uniType.newTab().setText("Public"));
 
         container.addOnPageChangeListener(new TabLayout.TabLayoutOnPageChangeListener(uniType));
 
-        uniType.setOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
+        uniType.addOnTabSelectedListener(new TabLayout.OnTabSelectedListener() {
             @Override
             public void onTabSelected(TabLayout.Tab tab) {
                 container.setCurrentItem(tab.getPosition());

@@ -13,7 +13,7 @@ public class NSUCourses extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_nsucourses);
 
-        webView = findViewById(R.id.nse_courses);
+        webView = findViewById(R.id.nsu_courses);
 
         webView.loadUrl("http://ece.northsouth.edu/");
 

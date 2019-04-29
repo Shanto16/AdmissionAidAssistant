@@ -14,7 +14,7 @@ public class BracCourses extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_brac_courses);
 
-        webView = findViewById(R.id.nse_courses);
+        webView = findViewById(R.id.brac_courses);
 
         webView.loadUrl("https://www.bracu.ac.bd/academics/programs/undergraduate");
     }

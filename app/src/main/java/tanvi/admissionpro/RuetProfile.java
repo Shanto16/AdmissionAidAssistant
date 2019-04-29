@@ -6,19 +6,19 @@ import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
 
-public class AIUBProfile extends AppCompatActivity {
+public class RuetProfile extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_aiubprofile);
+        setContentView(R.layout.activity_ruet_profile);
 
         Button btn_course = findViewById(R.id.btn_courses);
 
         btn_course.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                startActivity(new Intent(AIUBProfile.this,AiubCourses.class));
+                startActivity(new Intent(RuetProfile.this,RuetCourses.class));
             }
         });
     }

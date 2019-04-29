@@ -72,13 +72,13 @@ public class PublicUniversities extends Fragment {
         ll_ruet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),CUETProfile.class));
+                startActivity(new Intent(getContext(),RuetProfile.class));
             }
         });
         ll_kuet.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                startActivity(new Intent(getContext(),CUETProfile.class));
+                startActivity(new Intent(getContext(),KUETProfile.class));
             }
         });
 
