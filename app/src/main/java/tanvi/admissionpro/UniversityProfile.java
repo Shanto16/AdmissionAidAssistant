@@ -14,6 +14,16 @@ public class UniversityProfile extends AppCompatActivity {
         setContentView(R.layout.activity_university_profile);
 
         Button courses = findViewById(R.id.btn_courses);
+        Button btn_maps= findViewById(R.id.btn_map);
+
+
+
+        btn_maps.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(UniversityProfile.this,NsuMap.class));
+            }
+        });
         courses.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
